@@ -1,0 +1,114 @@
+/* style css application */
+
+/* menu styles */
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.219);
+}
+
+#info-log {
+    color: rgba(61, 48, 48, 0.856);
+    position: absolute;
+    top: 50%;
+    left: 47.75%;
+    transform: translateY(-50%);   
+}
+
+.social-media {
+    display: inline-block;
+    position: absolute;
+    left: 72.5%;
+}
+
+/* footer styles */
+#footer {
+    background: rgba(0, 0, 0, 0.219);
+    height: 100px;
+    position: absolute;
+    top: 120%;
+    
+    width: 100%;
+    
+}
+
+#footer p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px 40px;
+}
+
+#name_surname {
+    position: absolute;
+    top: 50%;
+    left: 87%;
+    transform: translateY(-50%);
+    
+}
+
+/* table styles */
+#table {
+    width: 100%;
+}
+
+/* button main page */
+#button_main {
+    position: relative;
+    left: 37%;
+}
+
+#button_main_two {
+    position: relative;
+    left: 37%;
+}
+
+/* chart styles */
+#clean_data{
+    margin-top: 15px;
+}
+
+#chartContainer {
+    margin-top: 30px;
+}
+
+
+/* responsive styles */
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .social-media {
+        position: absolute;
+        left: 62.5%;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+    #footer {
+        font-size: 10px;
+        top: 165%;
+    }
+
+    #footer p {
+        margin: 0 20px;
+    }
+
+    #name_surname {
+        left: 72%;
+    }
+
+    #button_main {
+        position: relative;
+        left: 23%;
+    }
+    
+    #button_main_two {
+        position: relative;
+        left: 23%;
+    }
+
+    .social-media {
+        display: none;
+    }
+    
+}
+
